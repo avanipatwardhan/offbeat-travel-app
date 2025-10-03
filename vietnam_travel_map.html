@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_39227d7219cc9ca812abd60154be7283 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_39227d7219cc9ca812abd60154be7283" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_39227d7219cc9ca812abd60154be7283 = L.map(
+                "map_39227d7219cc9ca812abd60154be7283",
+                {
+                    center: [21.0285, 105.8542],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_445780ac18d2c41f41539698b31729d2 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_445780ac18d2c41f41539698b31729d2.addTo(map_39227d7219cc9ca812abd60154be7283);
+        
+    
+            var marker_bd757125fa06f602f9f15121d62ecc19 = L.marker(
+                [20.9501, 107.0866],
+                {
+}
+            ).addTo(map_39227d7219cc9ca812abd60154be7283);
+        
+    
+            var icon_00f4d4eac43994758b4628b815824fd8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "warning-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d4ba84d0b1dff3b65c723d29baef3031 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6633bddaa8f34343d9d8daa4bdfaa2c = $(`<div id="html_c6633bddaa8f34343d9d8daa4bdfaa2c" style="width: 100.0%; height: 100.0%;">Ha Long Bay - CROWDED (tourist hotspot)</div>`)[0];
+                popup_d4ba84d0b1dff3b65c723d29baef3031.setContent(html_c6633bddaa8f34343d9d8daa4bdfaa2c);
+            
+        
+
+        marker_bd757125fa06f602f9f15121d62ecc19.bindPopup(popup_d4ba84d0b1dff3b65c723d29baef3031)
+        ;
+
+        
+    
+    
+                marker_bd757125fa06f602f9f15121d62ecc19.setIcon(icon_00f4d4eac43994758b4628b815824fd8);
+            
+    
+            var marker_a6bccb21f3311f73c64ca4c8d4332b3f = L.marker(
+                [23.278194, 105.363136],
+                {
+}
+            ).addTo(map_39227d7219cc9ca812abd60154be7283);
+        
+    
+            var icon_65fd7cfa12765c976dcb3242b315c13a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a0975074c554db669d419bd8eb40b14e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce70a976cc163a89815480fd7c9910f2 = $(`<div id="html_ce70a976cc163a89815480fd7c9910f2" style="width: 100.0%; height: 100.0%;">Ha Giang Loop - PEACEFUL (offbeat gem) ✨</div>`)[0];
+                popup_a0975074c554db669d419bd8eb40b14e.setContent(html_ce70a976cc163a89815480fd7c9910f2);
+            
+        
+
+        marker_a6bccb21f3311f73c64ca4c8d4332b3f.bindPopup(popup_a0975074c554db669d419bd8eb40b14e)
+        ;
+
+        
+    
+    
+                marker_a6bccb21f3311f73c64ca4c8d4332b3f.setIcon(icon_65fd7cfa12765c976dcb3242b315c13a);
+            
+    
+            var marker_b396747a56aaa4e3cf64115823dc20da = L.marker(
+                [21.0355, 105.8495],
+                {
+}
+            ).addTo(map_39227d7219cc9ca812abd60154be7283);
+        
+    
+            var icon_ab0286dd1064a7cc5c4e935436508160 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9203bd057b0af5d2f42bc7e06bfea0bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c365d092e9b235081ec6eb06adc53260 = $(`<div id="html_c365d092e9b235081ec6eb06adc53260" style="width: 100.0%; height: 100.0%;">84 Hang Bac Street, Hanoi - BUSTLING (moderate)</div>`)[0];
+                popup_9203bd057b0af5d2f42bc7e06bfea0bc.setContent(html_c365d092e9b235081ec6eb06adc53260);
+            
+        
+
+        marker_b396747a56aaa4e3cf64115823dc20da.bindPopup(popup_9203bd057b0af5d2f42bc7e06bfea0bc)
+        ;
+
+        
+    
+    
+                marker_b396747a56aaa4e3cf64115823dc20da.setIcon(icon_ab0286dd1064a7cc5c4e935436508160);
+            
+</script>
+</html>

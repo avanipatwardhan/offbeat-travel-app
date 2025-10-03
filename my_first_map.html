@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_26c841d7c387162db2b276a446b537e4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_26c841d7c387162db2b276a446b537e4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_26c841d7c387162db2b276a446b537e4 = L.map(
+                "map_26c841d7c387162db2b276a446b537e4",
+                {
+                    center: [48.8566, 2.3522],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e5886d97d89b3e249015d87639f7bd5b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e5886d97d89b3e249015d87639f7bd5b.addTo(map_26c841d7c387162db2b276a446b537e4);
+        
+    
+            var marker_d0329dbf946e06a3135535e804e20c45 = L.marker(
+                [48.8584, 2.2945],
+                {
+}
+            ).addTo(map_26c841d7c387162db2b276a446b537e4);
+        
+    
+            var icon_2bc60ac123d3904221c62ba70288b09d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "warning-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a5ff2ea6b98528b5c6129a41e9d1eb04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53186dd779f47d1ec163376da28a210e = $(`<div id="html_53186dd779f47d1ec163376da28a210e" style="width: 100.0%; height: 100.0%;">Eiffel Tower - VERY CROWDED (90% full)</div>`)[0];
+                popup_a5ff2ea6b98528b5c6129a41e9d1eb04.setContent(html_53186dd779f47d1ec163376da28a210e);
+            
+        
+
+        marker_d0329dbf946e06a3135535e804e20c45.bindPopup(popup_a5ff2ea6b98528b5c6129a41e9d1eb04)
+        ;
+
+        
+    
+    
+                marker_d0329dbf946e06a3135535e804e20c45.setIcon(icon_2bc60ac123d3904221c62ba70288b09d);
+            
+    
+            var marker_8b6bb2cf23e236efee07ffce96bbe45c = L.marker(
+                [48.8606, 2.3376],
+                {
+}
+            ).addTo(map_26c841d7c387162db2b276a446b537e4);
+        
+    
+            var icon_88372b5092456f415ade1e9cebbaec9c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "warning-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_610d6d805105ea35526ddc92c6e58822 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8eaa47fd5201cb683013202753be21e0 = $(`<div id="html_8eaa47fd5201cb683013202753be21e0" style="width: 100.0%; height: 100.0%;">Louvre Museum - VERY CROWDED (85% full)</div>`)[0];
+                popup_610d6d805105ea35526ddc92c6e58822.setContent(html_8eaa47fd5201cb683013202753be21e0);
+            
+        
+
+        marker_8b6bb2cf23e236efee07ffce96bbe45c.bindPopup(popup_610d6d805105ea35526ddc92c6e58822)
+        ;
+
+        
+    
+    
+                marker_8b6bb2cf23e236efee07ffce96bbe45c.setIcon(icon_88372b5092456f415ade1e9cebbaec9c);
+            
+    
+            var marker_5112a14d232fe165af16eb4deff333da = L.marker(
+                [48.8799, 2.3812],
+                {
+}
+            ).addTo(map_26c841d7c387162db2b276a446b537e4);
+        
+    
+            var icon_74eaf52f4a37953c5c1dd57bbc26c725 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fd7b33d2be4dfaefe2612bc69b79fe3c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c69c9eb396136fd4a0a06aee49e3cc60 = $(`<div id="html_c69c9eb396136fd4a0a06aee49e3cc60" style="width: 100.0%; height: 100.0%;">Parc des Buttes-Chaumont - QUIET (20% full) ✨</div>`)[0];
+                popup_fd7b33d2be4dfaefe2612bc69b79fe3c.setContent(html_c69c9eb396136fd4a0a06aee49e3cc60);
+            
+        
+
+        marker_5112a14d232fe165af16eb4deff333da.bindPopup(popup_fd7b33d2be4dfaefe2612bc69b79fe3c)
+        ;
+
+        
+    
+    
+                marker_5112a14d232fe165af16eb4deff333da.setIcon(icon_74eaf52f4a37953c5c1dd57bbc26c725);
+            
+    
+            var marker_1f2dd2ecf0a54b8ac47e3c7b277aa44f = L.marker(
+                [48.8867, 2.3431],
+                {
+}
+            ).addTo(map_26c841d7c387162db2b276a446b537e4);
+        
+    
+            var icon_7bee0d0cb75c96023d2d77ca8adc6e51 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fd4e8e927f0cbb0d8263a816fb2a947d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c4c7e2e166a72a996d0f470c8a80eff = $(`<div id="html_4c4c7e2e166a72a996d0f470c8a80eff" style="width: 100.0%; height: 100.0%;">Canal Saint-Martin - PEACEFUL (30% full) ✨</div>`)[0];
+                popup_fd4e8e927f0cbb0d8263a816fb2a947d.setContent(html_4c4c7e2e166a72a996d0f470c8a80eff);
+            
+        
+
+        marker_1f2dd2ecf0a54b8ac47e3c7b277aa44f.bindPopup(popup_fd4e8e927f0cbb0d8263a816fb2a947d)
+        ;
+
+        
+    
+    
+                marker_1f2dd2ecf0a54b8ac47e3c7b277aa44f.setIcon(icon_7bee0d0cb75c96023d2d77ca8adc6e51);
+            
+    
+            var marker_c20bb3690a86f1421b610da89ab1221f = L.marker(
+                [48.8462, 2.3371],
+                {
+}
+            ).addTo(map_26c841d7c387162db2b276a446b537e4);
+        
+    
+            var icon_056359e3e3325d8c09f324deed655fc8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_006cb621cad1df1c6547f7785a4ab132 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e999d09bf4eff7da03e23693ccbad39 = $(`<div id="html_7e999d09bf4eff7da03e23693ccbad39" style="width: 100.0%; height: 100.0%;">Latin Quarter Streets - MODERATE (40% full)</div>`)[0];
+                popup_006cb621cad1df1c6547f7785a4ab132.setContent(html_7e999d09bf4eff7da03e23693ccbad39);
+            
+        
+
+        marker_c20bb3690a86f1421b610da89ab1221f.bindPopup(popup_006cb621cad1df1c6547f7785a4ab132)
+        ;
+
+        
+    
+    
+                marker_c20bb3690a86f1421b610da89ab1221f.setIcon(icon_056359e3e3325d8c09f324deed655fc8);
+            
+</script>
+</html>
