@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_eb494931df36f6af995ce671761eb1e0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_eb494931df36f6af995ce671761eb1e0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_eb494931df36f6af995ce671761eb1e0 = L.map(
+                "map_eb494931df36f6af995ce671761eb1e0",
+                {
+                    center: [16.0, 108.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a5642058e46936c6ef8a0977e67d1cee = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a5642058e46936c6ef8a0977e67d1cee.addTo(map_eb494931df36f6af995ce671761eb1e0);
+        
+    
+            var marker_4b90a6addcdf7dfdcbfb4b889f3db649 = L.marker(
+                [21.0343278, 105.8504388],
+                {
+}
+            ).addTo(map_eb494931df36f6af995ce671761eb1e0);
+        
+    
+            var icon_450b46dde1f36f5cbda6bc920e2eb48e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e0030281cbae8eb5259de6cf84f9ad74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cae14d33228e49c528c70dea8410e4a4 = $(`<div id="html_cae14d33228e49c528c70dea8410e4a4" style="width: 100.0%; height: 100.0%;"><b>Nhà 48 phố Hàng Ngang</b><br>Type: attraction</div>`)[0];
+                popup_e0030281cbae8eb5259de6cf84f9ad74.setContent(html_cae14d33228e49c528c70dea8410e4a4);
+            
+        
+
+        marker_4b90a6addcdf7dfdcbfb4b889f3db649.bindPopup(popup_e0030281cbae8eb5259de6cf84f9ad74)
+        ;
+
+        
+    
+    
+                marker_4b90a6addcdf7dfdcbfb4b889f3db649.setIcon(icon_450b46dde1f36f5cbda6bc920e2eb48e);
+            
+    
+            var marker_b4723a26fed2c9ddcb95913656bbf686 = L.marker(
+                [20.917808, 105.440221],
+                {
+}
+            ).addTo(map_eb494931df36f6af995ce671761eb1e0);
+        
+    
+            var icon_d4f6910b0cdf44d392924788c866f290 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ee75a57702a628f2ef494ffa1673ef57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c5e7ed669ae87de9b4f44c17e040add = $(`<div id="html_5c5e7ed669ae87de9b4f44c17e040add" style="width: 100.0%; height: 100.0%;"><b>thác Thăng thiên</b><br>Type: attraction</div>`)[0];
+                popup_ee75a57702a628f2ef494ffa1673ef57.setContent(html_5c5e7ed669ae87de9b4f44c17e040add);
+            
+        
+
+        marker_b4723a26fed2c9ddcb95913656bbf686.bindPopup(popup_ee75a57702a628f2ef494ffa1673ef57)
+        ;
+
+        
+    
+    
+                marker_b4723a26fed2c9ddcb95913656bbf686.setIcon(icon_d4f6910b0cdf44d392924788c866f290);
+            
+    
+            var marker_f099a3438d8c389fdc9a642d02ea74d1 = L.marker(
+                [20.870304, 105.516019],
+                {
+}
+            ).addTo(map_eb494931df36f6af995ce671761eb1e0);
+        
+    
+            var icon_d13bd60af0f6b43510ad92ec357d7612 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c9a71bb54691469a1eeba767bd78fe52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84b02bba106d35ab69398130ee7e8edb = $(`<div id="html_84b02bba106d35ab69398130ee7e8edb" style="width: 100.0%; height: 100.0%;"><b>Khu du lịch Làng Văn hoá</b><br>Type: attraction</div>`)[0];
+                popup_c9a71bb54691469a1eeba767bd78fe52.setContent(html_84b02bba106d35ab69398130ee7e8edb);
+            
+        
+
+        marker_f099a3438d8c389fdc9a642d02ea74d1.bindPopup(popup_c9a71bb54691469a1eeba767bd78fe52)
+        ;
+
+        
+    
+    
+                marker_f099a3438d8c389fdc9a642d02ea74d1.setIcon(icon_d13bd60af0f6b43510ad92ec357d7612);
+            
+    
+            var marker_21466796af896c715d0f1f632c74c919 = L.marker(
+                [10.9516986, 108.2567496],
+                {
+}
+            ).addTo(map_eb494931df36f6af995ce671761eb1e0);
+        
+    
+            var icon_4e59206fc6e930c93b6863a73e83c49f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_00878f8bfebd412685b87c426884ac2b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b2d32988d6ae7013b0d029603ea7faa = $(`<div id="html_7b2d32988d6ae7013b0d029603ea7faa" style="width: 100.0%; height: 100.0%;"><b>Unnamed</b><br>Type: attraction</div>`)[0];
+                popup_00878f8bfebd412685b87c426884ac2b.setContent(html_7b2d32988d6ae7013b0d029603ea7faa);
+            
+        
+
+        marker_21466796af896c715d0f1f632c74c919.bindPopup(popup_00878f8bfebd412685b87c426884ac2b)
+        ;
+
+        
+    
+    
+                marker_21466796af896c715d0f1f632c74c919.setIcon(icon_4e59206fc6e930c93b6863a73e83c49f);
+            
+    
+            var marker_b745a9e444245bf823c2813034b59e93 = L.marker(
+                [11.0678842, 108.4273029],
+                {
+}
+            ).addTo(map_eb494931df36f6af995ce671761eb1e0);
+        
+    
+            var icon_a409fe9b8af487bc19fdabb84e0df4cf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0abbc3fe676a9b00e1aff71e3a8fcc71 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b984036f80c81af2844d06ef8fc0646 = $(`<div id="html_6b984036f80c81af2844d06ef8fc0646" style="width: 100.0%; height: 100.0%;"><b>White Dunes</b><br>Type: attraction</div>`)[0];
+                popup_0abbc3fe676a9b00e1aff71e3a8fcc71.setContent(html_6b984036f80c81af2844d06ef8fc0646);
+            
+        
+
+        marker_b745a9e444245bf823c2813034b59e93.bindPopup(popup_0abbc3fe676a9b00e1aff71e3a8fcc71)
+        ;
+
+        
+    
+    
+                marker_b745a9e444245bf823c2813034b59e93.setIcon(icon_a409fe9b8af487bc19fdabb84e0df4cf);
+            
+    
+            var marker_8d3e22bbf1be7f1f3642c9cfdeaed391 = L.marker(
+                [11.0470659, 108.3807843],
+                {
+}
+            ).addTo(map_eb494931df36f6af995ce671761eb1e0);
+        
+    
+            var icon_e47c9f27427798f66f210d45c8fa4be0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0b27828d8b6ace8b6cfeaf3dac7384dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb4086f864353f3ea7de964db9f41b2e = $(`<div id="html_bb4086f864353f3ea7de964db9f41b2e" style="width: 100.0%; height: 100.0%;"><b>Unnamed</b><br>Type: attraction</div>`)[0];
+                popup_0b27828d8b6ace8b6cfeaf3dac7384dc.setContent(html_bb4086f864353f3ea7de964db9f41b2e);
+            
+        
+
+        marker_8d3e22bbf1be7f1f3642c9cfdeaed391.bindPopup(popup_0b27828d8b6ace8b6cfeaf3dac7384dc)
+        ;
+
+        
+    
+    
+                marker_8d3e22bbf1be7f1f3642c9cfdeaed391.setIcon(icon_e47c9f27427798f66f210d45c8fa4be0);
+            
+    
+            var marker_4982a2f601696e429eca5e23799e7030 = L.marker(
+                [13.7936198, 109.1482424],
+                {
+}
+            ).addTo(map_eb494931df36f6af995ce671761eb1e0);
+        
+    
+            var icon_fa3c3f5e0398e93d55d8ee7cd0a25509 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9bfc02d04d434431718df382990f5e74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_429cd3a832754e78a696e43ca08b56c1 = $(`<div id="html_429cd3a832754e78a696e43ca08b56c1" style="width: 100.0%; height: 100.0%;"><b>Ngã Ba Phú Tài</b><br>Type: attraction</div>`)[0];
+                popup_9bfc02d04d434431718df382990f5e74.setContent(html_429cd3a832754e78a696e43ca08b56c1);
+            
+        
+
+        marker_4982a2f601696e429eca5e23799e7030.bindPopup(popup_9bfc02d04d434431718df382990f5e74)
+        ;
+
+        
+    
+    
+                marker_4982a2f601696e429eca5e23799e7030.setIcon(icon_fa3c3f5e0398e93d55d8ee7cd0a25509);
+            
+    
+            var marker_db94f7f79966d5228a08dca2893e9ef8 = L.marker(
+                [12.2103078, 109.2153658],
+                {
+}
+            ).addTo(map_eb494931df36f6af995ce671761eb1e0);
+        
+    
+            var icon_aa10f09c2b1b910f7dd62e80927c081c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_509857c2f5e87c52a809d6225be7e68b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f2a8ca25501909ea78f572a0b601f251 = $(`<div id="html_f2a8ca25501909ea78f572a0b601f251" style="width: 100.0%; height: 100.0%;"><b>Nhà Bảo Đại</b><br>Type: attraction</div>`)[0];
+                popup_509857c2f5e87c52a809d6225be7e68b.setContent(html_f2a8ca25501909ea78f572a0b601f251);
+            
+        
+
+        marker_db94f7f79966d5228a08dca2893e9ef8.bindPopup(popup_509857c2f5e87c52a809d6225be7e68b)
+        ;
+
+        
+    
+    
+                marker_db94f7f79966d5228a08dca2893e9ef8.setIcon(icon_aa10f09c2b1b910f7dd62e80927c081c);
+            
+    
+            var marker_4bef234dc26b526026bab640c834723a = L.marker(
+                [20.2295474, 105.9342536],
+                {
+}
+            ).addTo(map_eb494931df36f6af995ce671761eb1e0);
+        
+    
+            var icon_2298ea263b5ed4f7686408996e881d89 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c8fa25372256937b89380439132f8377 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da6881fa4dddc682a9222701c1e69c6d = $(`<div id="html_da6881fa4dddc682a9222701c1e69c6d" style="width: 100.0%; height: 100.0%;"><b>Hang Múa;Lying Dragon Top</b><br>Type: attraction</div>`)[0];
+                popup_c8fa25372256937b89380439132f8377.setContent(html_da6881fa4dddc682a9222701c1e69c6d);
+            
+        
+
+        marker_4bef234dc26b526026bab640c834723a.bindPopup(popup_c8fa25372256937b89380439132f8377)
+        ;
+
+        
+    
+    
+                marker_4bef234dc26b526026bab640c834723a.setIcon(icon_2298ea263b5ed4f7686408996e881d89);
+            
+    
+            var marker_84f843bae3b51c67ffd06085f5a4a6fa = L.marker(
+                [10.0287059, 105.732386],
+                {
+}
+            ).addTo(map_eb494931df36f6af995ce671761eb1e0);
+        
+    
+            var icon_b082d4b1ba6a67617ddc6abe5c10f8db = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6af04b7bcbca04f09cfde8ef2697f506 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb354eea989d89b0a103b1f94d8390a3 = $(`<div id="html_cb354eea989d89b0a103b1f94d8390a3" style="width: 100.0%; height: 100.0%;"><b>Fruit garden</b><br>Type: attraction</div>`)[0];
+                popup_6af04b7bcbca04f09cfde8ef2697f506.setContent(html_cb354eea989d89b0a103b1f94d8390a3);
+            
+        
+
+        marker_84f843bae3b51c67ffd06085f5a4a6fa.bindPopup(popup_6af04b7bcbca04f09cfde8ef2697f506)
+        ;
+
+        
+    
+    
+                marker_84f843bae3b51c67ffd06085f5a4a6fa.setIcon(icon_b082d4b1ba6a67617ddc6abe5c10f8db);
+            
+    
+            var marker_60a8e373bf870afb0008e8717efce03d = L.marker(
+                [22.3285327, 103.8346798],
+                {
+}
+            ).addTo(map_eb494931df36f6af995ce671761eb1e0);
+        
+    
+            var icon_cd5ef2038ec7e05f186926c5f7550317 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_12764b1ac17addc60d3e0c5b2195ee17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_171606755ec487dc3b4846615cfa9346 = $(`<div id="html_171606755ec487dc3b4846615cfa9346" style="width: 100.0%; height: 100.0%;"><b>Cát Cát</b><br>Type: attraction</div>`)[0];
+                popup_12764b1ac17addc60d3e0c5b2195ee17.setContent(html_171606755ec487dc3b4846615cfa9346);
+            
+        
+
+        marker_60a8e373bf870afb0008e8717efce03d.bindPopup(popup_12764b1ac17addc60d3e0c5b2195ee17)
+        ;
+
+        
+    
+    
+                marker_60a8e373bf870afb0008e8717efce03d.setIcon(icon_cd5ef2038ec7e05f186926c5f7550317);
+            
+    
+            var marker_f170724addbb0942d104e5917a4c021b = L.marker(
+                [20.9027194, 107.0181373],
+                {
+}
+            ).addTo(map_eb494931df36f6af995ce671761eb1e0);
+        
+    
+            var icon_d6e685305ea34f0551a5059b369fc219 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0d814439aab6ff70f4446e627e21ad51 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ffc71b6cb482e5763200f245d5cd6f6 = $(`<div id="html_3ffc71b6cb482e5763200f245d5cd6f6" style="width: 100.0%; height: 100.0%;"><b>Floating Village</b><br>Type: attraction</div>`)[0];
+                popup_0d814439aab6ff70f4446e627e21ad51.setContent(html_3ffc71b6cb482e5763200f245d5cd6f6);
+            
+        
+
+        marker_f170724addbb0942d104e5917a4c021b.bindPopup(popup_0d814439aab6ff70f4446e627e21ad51)
+        ;
+
+        
+    
+    
+                marker_f170724addbb0942d104e5917a4c021b.setIcon(icon_d6e685305ea34f0551a5059b369fc219);
+            
+    
+            var marker_d25fbad00df78abbec0f278d40724631 = L.marker(
+                [17.5410038, 106.1002457],
+                {
+}
+            ).addTo(map_eb494931df36f6af995ce671761eb1e0);
+        
+    
+            var icon_7610c58e1b784546ad137d74a976c09f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fa5bb64b70d059a1a9feadd8b54f394c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8fa76b622d6a5e9cbbfecf77a73611b = $(`<div id="html_c8fa76b622d6a5e9cbbfecf77a73611b" style="width: 100.0%; height: 100.0%;"><b>Unnamed</b><br>Type: attraction</div>`)[0];
+                popup_fa5bb64b70d059a1a9feadd8b54f394c.setContent(html_c8fa76b622d6a5e9cbbfecf77a73611b);
+            
+        
+
+        marker_d25fbad00df78abbec0f278d40724631.bindPopup(popup_fa5bb64b70d059a1a9feadd8b54f394c)
+        ;
+
+        
+    
+    
+                marker_d25fbad00df78abbec0f278d40724631.setIcon(icon_7610c58e1b784546ad137d74a976c09f);
+            
+    
+            var marker_d251ba5f3f6f070670f5b49389df3ce5 = L.marker(
+                [17.0056523, 107.0502157],
+                {
+}
+            ).addTo(map_eb494931df36f6af995ce671761eb1e0);
+        
+    
+            var icon_f64af4b5944a32e7fde761bfde77cda9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_53947739700f1fe2ad6536ec33efb3c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ab6d1dccba5a8ab1a956dc0ba1a9193 = $(`<div id="html_6ab6d1dccba5a8ab1a956dc0ba1a9193" style="width: 100.0%; height: 100.0%;"><b>Cột cờ Cầu Hiền Lương</b><br>Type: attraction</div>`)[0];
+                popup_53947739700f1fe2ad6536ec33efb3c8.setContent(html_6ab6d1dccba5a8ab1a956dc0ba1a9193);
+            
+        
+
+        marker_d251ba5f3f6f070670f5b49389df3ce5.bindPopup(popup_53947739700f1fe2ad6536ec33efb3c8)
+        ;
+
+        
+    
+    
+                marker_d251ba5f3f6f070670f5b49389df3ce5.setIcon(icon_f64af4b5944a32e7fde761bfde77cda9);
+            
+    
+            var marker_65e2be07d3b8dd19b4a35f7caba5449e = L.marker(
+                [16.1874495, 108.1307217],
+                {
+}
+            ).addTo(map_eb494931df36f6af995ce671761eb1e0);
+        
+    
+            var icon_8e7fc5df51c0fc5abdb6c276138df931 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dc573f08b0488f95ac71d94945841986 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e043fb1328545347b5c06d018713ce45 = $(`<div id="html_e043fb1328545347b5c06d018713ce45" style="width: 100.0%; height: 100.0%;"><b>Đèo Hải Vân</b><br>Type: attraction</div>`)[0];
+                popup_dc573f08b0488f95ac71d94945841986.setContent(html_e043fb1328545347b5c06d018713ce45);
+            
+        
+
+        marker_65e2be07d3b8dd19b4a35f7caba5449e.bindPopup(popup_dc573f08b0488f95ac71d94945841986)
+        ;
+
+        
+    
+    
+                marker_65e2be07d3b8dd19b4a35f7caba5449e.setIcon(icon_8e7fc5df51c0fc5abdb6c276138df931);
+            
+    
+            var marker_8718e356632f890ed35499c5035fd3f7 = L.marker(
+                [11.9012375, 108.4489764],
+                {
+}
+            ).addTo(map_eb494931df36f6af995ce671761eb1e0);
+        
+    
+            var icon_08bfaea39e1cdb5dc4ae1496a4d7705f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f4b36c20a0063fb1d4ea5b59bc2fc351 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_180e663a7227ec8cfa1b9dc067a9c5a0 = $(`<div id="html_180e663a7227ec8cfa1b9dc067a9c5a0" style="width: 100.0%; height: 100.0%;"><b>Thác Datanla</b><br>Type: attraction</div>`)[0];
+                popup_f4b36c20a0063fb1d4ea5b59bc2fc351.setContent(html_180e663a7227ec8cfa1b9dc067a9c5a0);
+            
+        
+
+        marker_8718e356632f890ed35499c5035fd3f7.bindPopup(popup_f4b36c20a0063fb1d4ea5b59bc2fc351)
+        ;
+
+        
+    
+    
+                marker_8718e356632f890ed35499c5035fd3f7.setIcon(icon_08bfaea39e1cdb5dc4ae1496a4d7705f);
+            
+    
+            var marker_6a53dbbbc29ec4ef53f1bad015f33dff = L.marker(
+                [10.2100119, 103.9850305],
+                {
+}
+            ).addTo(map_eb494931df36f6af995ce671761eb1e0);
+        
+    
+            var icon_0881fe7004564c9050cb0eebf8205e05 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0508a4e92e5b4e996fc38f3c8b7e9832 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4146299a19755a04374b7c523b3a3cf3 = $(`<div id="html_4146299a19755a04374b7c523b3a3cf3" style="width: 100.0%; height: 100.0%;"><b>Duc Ninh Pepper Farm</b><br>Type: attraction</div>`)[0];
+                popup_0508a4e92e5b4e996fc38f3c8b7e9832.setContent(html_4146299a19755a04374b7c523b3a3cf3);
+            
+        
+
+        marker_6a53dbbbc29ec4ef53f1bad015f33dff.bindPopup(popup_0508a4e92e5b4e996fc38f3c8b7e9832)
+        ;
+
+        
+    
+    
+                marker_6a53dbbbc29ec4ef53f1bad015f33dff.setIcon(icon_0881fe7004564c9050cb0eebf8205e05);
+            
+    
+            var marker_9d68ff33112a12455b0bbb2601c6e012 = L.marker(
+                [10.3746285, 107.0705354],
+                {
+}
+            ).addTo(map_eb494931df36f6af995ce671761eb1e0);
+        
+    
+            var icon_c1a2430bb9698113af13d571ae827973 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_eb39086b2121ba5c01b87f786507b45b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5309e72b10e3bfee2bfe60534ddb0c1 = $(`<div id="html_f5309e72b10e3bfee2bfe60534ddb0c1" style="width: 100.0%; height: 100.0%;"><b>Thích ca Phật Đài</b><br>Type: attraction</div>`)[0];
+                popup_eb39086b2121ba5c01b87f786507b45b.setContent(html_f5309e72b10e3bfee2bfe60534ddb0c1);
+            
+        
+
+        marker_9d68ff33112a12455b0bbb2601c6e012.bindPopup(popup_eb39086b2121ba5c01b87f786507b45b)
+        ;
+
+        
+    
+    
+                marker_9d68ff33112a12455b0bbb2601c6e012.setIcon(icon_c1a2430bb9698113af13d571ae827973);
+            
+    
+            var marker_aa3f9fb2efb5b587346f39d486af22fd = L.marker(
+                [10.3710949, 107.1196423],
+                {
+}
+            ).addTo(map_eb494931df36f6af995ce671761eb1e0);
+        
+    
+            var icon_114eeeda4e3d28c2dc1e498d922edcf6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_376e798577588588b733ae79f265af63 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c94a9e3a5c0c3fe4ce774f133a5142c9 = $(`<div id="html_c94a9e3a5c0c3fe4ce774f133a5142c9" style="width: 100.0%; height: 100.0%;"><b>Cổng Khu du lịch Chí Linh</b><br>Type: attraction</div>`)[0];
+                popup_376e798577588588b733ae79f265af63.setContent(html_c94a9e3a5c0c3fe4ce774f133a5142c9);
+            
+        
+
+        marker_aa3f9fb2efb5b587346f39d486af22fd.bindPopup(popup_376e798577588588b733ae79f265af63)
+        ;
+
+        
+    
+    
+                marker_aa3f9fb2efb5b587346f39d486af22fd.setIcon(icon_114eeeda4e3d28c2dc1e498d922edcf6);
+            
+    
+            var marker_3472446c72e9519f3f708fc5b236d464 = L.marker(
+                [10.470678, 107.3743351],
+                {
+}
+            ).addTo(map_eb494931df36f6af995ce671761eb1e0);
+        
+    
+            var icon_24c796e133eb4bba7982afd0e2c7015c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_658ba9a3015cb44425d0514b1b0088d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be2eef10dd06359b967c96f87521f9ed = $(`<div id="html_be2eef10dd06359b967c96f87521f9ed" style="width: 100.0%; height: 100.0%;"><b>KDL Hồng Ph</b><br>Type: attraction</div>`)[0];
+                popup_658ba9a3015cb44425d0514b1b0088d4.setContent(html_be2eef10dd06359b967c96f87521f9ed);
+            
+        
+
+        marker_3472446c72e9519f3f708fc5b236d464.bindPopup(popup_658ba9a3015cb44425d0514b1b0088d4)
+        ;
+
+        
+    
+    
+                marker_3472446c72e9519f3f708fc5b236d464.setIcon(icon_24c796e133eb4bba7982afd0e2c7015c);
+            
+</script>
+</html>
